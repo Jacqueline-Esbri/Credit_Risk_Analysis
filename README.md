@@ -8,7 +8,7 @@ Machine Learning
 
 Personal loans and credit cards are an essential part of modern society. All over the world, people rely on their credit worthiness to qualify for loans and credit cards. The process presents a challenge or opportunity for banks and lending institutions. Loans and credit card approvals enable lending institutions to create revenue with the interest it generates, but also expose them to risk of losing money if the borrower can't repay its debt. 
 
-To identify risky borrowers, more lending institutions are relying on financial technology, which enables the use of Machine Learning to assess lending risk. Machine learning is believed to lead a more accurate description of borrower's credit worthiness in order to lower default rates.
+To identify risky borrowers, more lending institutions are relying on financial technology, such as Machine Learning, to assess lending risk. Machine learning is believed to lead a more accurate description of borrower's credit worthiness in order to lower default rates.
 
 The purpose of this analysis was to apply Machine Learning to real-world challenge: credit card risk.
 The assignment required Python and Scikit-learn to predict credit risk. Several machine learning models were built and evaluated on how well it classified and predicted the data.
