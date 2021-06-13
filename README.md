@@ -40,7 +40,7 @@ The assignment required Python and Scikit-learn to predict credit risk. Several 
 #### Fig.3
 ***Cluster Centroids Undersampling***
 ![underS3.PNG](PNGs/underS3.png)
-- Balance accuracy score - 63%
+- Balance accuracy score - 62%
 - Precision scores <> high-risk 0.01 <> low-risk 1.00
 - Recall scores <> high-risk 0.61 <> low-risk 0.45
 - Avg/Total 99% for precision & 45% for recall (sensitivity)
@@ -52,7 +52,7 @@ The assignment required Python and Scikit-learn to predict credit risk. Several 
 - Balance accuracy score - 64%
 - Precision scores <> high-risk 0.01 <> low-risk 1.00
 - Recall scores <> high-risk 0.69 <> low-risk 0.58
-- Avg/Total 99% for precision & 58% for recall
+- Avg/Total 99% for precision & 58% for recall (sensitivity)
 - **True Positives increase by 7, and True Negatives increase by 2,268**
 
 ### Credit Risk Ensemble
@@ -63,7 +63,7 @@ The assignment required Python and Scikit-learn to predict credit risk. Several 
 - Precision scores <> high-risk 0.04 <> low-risk 1.00
 - Recall scores <> high-risk 0.67 <> low-risk 0.91
 - Macro avg 52% for precision & 79% for recall
-- Weighted avg 99% for precision & 91% for recall
+- Weighted avg 99% for precision & 91% for recall (sensitivity)
 - **True Negatives drastically increase, as well as  sharp decrease in False Positives**
 
 #### Fig.6
@@ -71,15 +71,14 @@ The assignment required Python and Scikit-learn to predict credit risk. Several 
 - Balance accuracy score - 93%
 - Precision scores <> high-risk 0.07 <> low-risk 1.00
 - Recall scores <> high-risk 0.91 <> low-risk 0.94
-- Macro avg 52% for precision & 79% for recall
-- Avg/Total 99% for precision & 94% for recall
+- Avg/Total 99% for precision & 94% for recall (sensitivity)
 - **False Positives decrease even lower, and True Negatives increase slightly**
 
 
 
 ## Summary
 
-The results indicate that, in this case, the Easy AdaBoost Classifier is the most effective model with a 93% balance accuracy; meaning, it detects 93% of all high-risk credit. 
+The results indicate that, in this case, the Easy AdaBoost Classifier is the most effective model with a 93% balance accuracy score test (model's performance). 
 
 The average/total sensitivity is 94%. Sensitivity is more important than precision in order to detect fraudulent credit card risk results. False positives can be ruled out by contacting applicants directly to evaluate discrepancies. This model also shows that it is well balanced between sensitivity and precision, due to high yield F1 score (avg/total 97%).
 
