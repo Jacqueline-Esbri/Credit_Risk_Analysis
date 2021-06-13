@@ -6,7 +6,7 @@ Machine Learning
 
 ## Overview of the Analysis
 
-Personal loans and credit cards are an essential part of modern society. All over the world, people rely on their credit worthiness to qualify for loans and credit cards. The process presents a challenge or opportunity for banks and lending institutions. Loans and credit card approvals enable lending institutions to create revenue with the interest it generates, but also expose them to risk of losing money if the borrower can't repay its debt. 
+Personal loans and credit cards are an essential part of modern society. All over the world, people rely on their credit worthiness to qualify for loans and credit cards. The process presents a challenge or opportunity for banks and lending institutions. Loans and credit card approvals enable lending institutions to create revenue with the interest it generates, but also expose the business to risk of losing money if the debt is not repaid. 
 
 To identify risky borrowers, more lending institutions are relying on financial technology, such as Machine Learning, to assess lending risk. Machine learning is believed to lead a more accurate description of borrower's credit worthiness in order to lower default rates.
 
