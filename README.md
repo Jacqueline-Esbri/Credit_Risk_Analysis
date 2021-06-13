@@ -6,9 +6,7 @@ Machine Learning
 
 ## Overview of the Analysis
 
-Personal loans and credit cards are an essential part of modern society. All over the world, people rely on their credit worthiness to qualify for loans and credit cards. The process presents a challenge or opportunity for banks and lending institutions. 
-
-Loans and credit card approvals enable lending institutions to create revenue with the interest it generates, but also expose them to risk of losing money if the borrower can't repay its debt. 
+Personal loans and credit cards are an essential part of modern society. All over the world, people rely on their credit worthiness to qualify for loans and credit cards. The process presents a challenge or opportunity for banks and lending institutions. Loans and credit card approvals enable lending institutions to create revenue with the interest it generates, but also expose them to risk of losing money if the borrower can't repay its debt. 
 
 To identify risky borrowers, more lending institutions are relying on financial technology, which enables the use of Machine Learning to assess lending risk. Machine learning is believed to lead a more accurate description of borrower's credit worthiness in order to lower default rates.
 
@@ -19,9 +17,9 @@ The assignment required Python and Scikit-learn to predict credit risk. Several 
 ## Results
 
 
-#### Credi Risk Resampling
+### Credit Risk Resampling
 
-### Fig.1
+#### Fig.1
 ***Naive Random Oversampling***
 ![naive1.PNG](PNGs/naive1.png)
 - Balance accuracy score - 64%
@@ -30,7 +28,7 @@ The assignment required Python and Scikit-learn to predict credit risk. Several 
 - Avg/Total 99% for precision & 69% for recall (sensitivity)
 
 
-### Fig.2
+#### Fig.2
 ***SMOTE Oversampling***
 ![smote2.PNG](PNGs/smote2.png)
 - Balance accuracy score - 62%
@@ -39,16 +37,16 @@ The assignment required Python and Scikit-learn to predict credit risk. Several 
 - Avg/Total 99% for precision & 66% for recall (sensitivity)
 - **The number of False Positives increase, and True Negatives decrease**
 
-### Fig.3
+#### Fig.3
 ***Cluster Centroids Undersampling***
 ![underS3.PNG](PNGs/underS3.png)
-- Balance accuracy score - 64%
+- Balance accuracy score - 63%
 - Precision scores <> high-risk 0.01 <> low-risk 1.00
 - Recall scores <> high-risk 0.61 <> low-risk 0.45
 - Avg/Total 99% for precision & 45% for recall (sensitivity)
 - **The number of False Positives increase by 3,554**
 
-### Fig.4
+#### Fig.4
 ***SMOTEENN Combination Over & Under Sampling***
 ![over_under4.PNG](PNGs/over_under4.png)
 - Balance accuracy score - 64%
@@ -57,10 +55,9 @@ The assignment required Python and Scikit-learn to predict credit risk. Several 
 - Avg/Total 99% for precision & 58% for recall
 - **True Positives increase by 7, and True Negatives increase by 2,268**
 
-#### Credit Risk Ensemble
+### Credit Risk Ensemble
 
-### Fig.5
-***Balance Random Forest Classifier***
+#### Fig.5
 ![balancerandom5.PNG](PNGs/balancerandom5.png)
 - Balance accuracy score - 79%
 - Precision scores <> high-risk 0.04 <> low-risk 1.00
@@ -69,8 +66,7 @@ The assignment required Python and Scikit-learn to predict credit risk. Several 
 - Weighted avg 99% for precision & 91% for recall
 - **True Negatives drastically increase, as well as  sharp decrease in False Positives**
 
-### Fig.6
-***Easy Ensemble AdaBoost Classifier***
+#### Fig.6
 ![easyadaboost6.PNG](PNGs/easyadaboost6.png)
 - Balance accuracy score - 93%
 - Precision scores <> high-risk 0.07 <> low-risk 1.00
