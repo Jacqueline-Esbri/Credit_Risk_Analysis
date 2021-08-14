@@ -1,7 +1,5 @@
-![readme.PNG](PNGs/readme.png)
-
 # Credit Risk Analysis
-Machine Learning
+![mod17.png](PNGs/mod17.png)
 
 
 ## Overview of the Analysis
@@ -10,18 +8,17 @@ Personal loans and credit cards are an essential part of modern society. All ove
 
 To identify risky borrowers, more lending institutions are relying on financial technology, such as Machine Learning, to assess lending risk. Machine learning is believed to lead a more accurate description of borrower's credit worthiness in order to lower default rates.
 
-The purpose of this analysis was to apply Machine Learning to real-world challenge: credit card risk.
-Python, Scikit-learn and Imbalance-learn libraries were used to build and evaluate models on how well it classified and predicted the data.
+The purpose of this analysis was to apply Machine Learning to real-world challenge: credit card risk. Python, Scikit-learn and Imbalance-learn libraries were used to build and evaluate models on how well it classified and predicted the data.
 
 
 ## Results
-
 
 ### Credit Risk Resampling
 
 #### Fig.1
 ***Naive Random Oversampling***
 ![naive1.PNG](PNGs/naive1.png)
+
 - Balance accuracy score - 64%
 - Precision scores <> high-risk 0.01 <> low-risk 1.00
 - Recall scores <> high-risk 0.59 <> low-risk 0.69
@@ -31,6 +28,7 @@ Python, Scikit-learn and Imbalance-learn libraries were used to build and evalua
 #### Fig.2
 ***SMOTE Oversampling***
 ![smote2.PNG](PNGs/smote2.png)
+
 - Balance accuracy score - 62%
 - Precision scores <> high-risk 0.01 <> low-risk 1.00
 - Recall scores <> high-risk 0.59 <> low-risk 0.66
@@ -40,6 +38,7 @@ Python, Scikit-learn and Imbalance-learn libraries were used to build and evalua
 #### Fig.3
 ***Cluster Centroids Undersampling***
 ![underS3.PNG](PNGs/underS3.png)
+
 - Balance accuracy score - 62%
 - Precision scores <> high-risk 0.01 <> low-risk 1.00
 - Recall scores <> high-risk 0.61 <> low-risk 0.45
@@ -49,16 +48,19 @@ Python, Scikit-learn and Imbalance-learn libraries were used to build and evalua
 #### Fig.4
 ***SMOTEENN Combination Over & Under Sampling***
 ![over_under4.PNG](PNGs/over_under4.png)
+
 - Balance accuracy score - 64%
 - Precision scores <> high-risk 0.01 <> low-risk 1.00
 - Recall scores <> high-risk 0.69 <> low-risk 0.58
 - Avg/Total 99% for precision & 58% for recall (sensitivity)
 - **True Positives increase by 7, and True Negatives increase by 2,268**
 
+
 ### Credit Risk Ensemble
 
 #### Fig.5
 ![balancerandom5.PNG](PNGs/balancerandom5.png)
+
 - Balance accuracy score - 79%
 - Precision scores <> high-risk 0.04 <> low-risk 1.00
 - Recall scores <> high-risk 0.67 <> low-risk 0.91
@@ -68,6 +70,7 @@ Python, Scikit-learn and Imbalance-learn libraries were used to build and evalua
 
 #### Fig.6
 ![easyadaboost6.PNG](PNGs/easyadaboost6.png)
+
 - Balance accuracy score - 93%
 - Precision scores <> high-risk 0.07 <> low-risk 1.00
 - Recall scores <> high-risk 0.91 <> low-risk 0.94
