@@ -4,12 +4,11 @@
 
 ## Overview of the Analysis
 
-Personal loans and credit cards are an essential part of modern society. All over the world, people rely on their credit worthiness to qualify for loans and credit cards. The process presents a challenge or opportunity for banks and lending institutions. Loans and credit card approvals enable lending institutions to create revenue with the interest it generates, but also expose the business to risk of losing money if the debt is not repaid. 
+Personal loans and credit cards are an essential part of modern society. All over the world, people rely on their credit worthiness to qualify for loans and credit cards. The process presents a challenge or opportunity for banks and lending institutions. Loans and credit card approvals enable lending institutions to create revenue with the interest it generates, but also expose the business to risk of losing money. 
 
-To identify risky borrowers, more lending institutions are relying on financial technology, such as Machine Learning, to assess lending risk. Machine learning is believed to lead a more accurate description of borrower's credit worthiness in order to lower default rates.
+Being able to predict credit risk with machine learning algorithms can help banks and financial institutions predict anomalies, reduce risk cases, monitor portfolios, and provide recommendations on what to do in cases of fraud.
 
-The purpose of this analysis was to apply Machine Learning to real-world challenge: credit card risk. Python, Scikit-learn and Imbalance-learn libraries were used to build and evaluate models on how well it classified and predicted the data.
-
+The purpose of this analysis was to apply Machine Learning to real-world challenge: credit card risk. Credit risk is an inherently unbalanced classification problem, as good loans easily outnumber risky loans. Therefore, different techniques were used to train and evaluate models with unbalanced classes. 
 
 ## Results
 
